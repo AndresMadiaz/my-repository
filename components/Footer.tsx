@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Sparkles, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -39,7 +40,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-brand-blue transition-colors"><Instagram size={20} /></a>
             </div>
             <div className="text-sm text-gray-500">
-              hello@learningai.com
+              hello@mypractical-ai.com
             </div>
           </div>
         </div>

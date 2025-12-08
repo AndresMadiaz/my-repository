@@ -1,4 +1,5 @@
 
+
 import { Template, Lesson, Course, Ebook } from './types';
 
 // English Data
@@ -335,7 +336,7 @@ const lessonsEn: Lesson[] = [
       { type: 'h3', content: "1. Use Kid-Friendly AI Tools with Privacy Protections" },
       { type: 'text', content: "Not all AI tools are safe. Look for COPPA-compliant services." },
       { type: 'list', content: [
-        "Safe options: Khan Academy Kids (No ads), Duolingo (13+), Epic! (Reading), Scratch (Coding)",
+        "Safe options: Khan Academy Kids (No ads), Duolingo (13+), Epic!, Scratch (Coding)",
         "Avoid: Public AI chatbots (ChatGPT/Claude) for young kids, Apps with heavy data collection"
       ]},
       { type: 'h3', content: "2. Set Up Parental Controls" },
@@ -451,7 +452,7 @@ const lessonsEn: Lesson[] = [
       { type: 'text', content: "Books & Orgs:" },
       { type: 'list', content: [
         "Books: \"The Tech-Wise Family\", \"Screenwise\", \"Hello Ruby\"",
-        "Sites: Common Sense Media, ConnectSafely.org, AI4K12.org"
+        "Sites: Common Sense Media, ConnectSafely.org"
       ]},
       { type: 'text', content: "If concerned about safety, contact: National Center for Missing & Exploited Children." },
       
@@ -561,7 +562,7 @@ const courseEn: Course = {
         { type: 'h3', content: '3 beginner workflows' },
         { type: 'list', content: ['1. Save email attachments to Google Drive', '2. Log customers to spreadsheet (Stripe/PayPal → Sheets)', '3. Auto-post blog to social platforms'] },
         { type: 'h3', content: 'How to build (Zapier)' },
-        { type: 'list', content: ['1. Sign up → Create Zap', '2. Choose Trigger app (Gmail) + event (New email)', '3. Connect account', '4. Choose Action app (Google Drive) + action (Upload file)', '5. Map fields', '6. Test and turn on'] },
+        { type: 'list', content: ['1. Sign up → Create Zap', '2. Choose Trigger app (Gmail) + event (New email)', '3. Connect account', '4. Choose Action app (Google Drive) + action (Upload file)', '5. Mapea campos', '6. Prueba y enciende'] },
         { type: 'example', content: 'Real example: Laura saves 15min per order (12.5 hours/month) with order automation.' },
         { type: 'action', content: 'Your turn: Build one simple Zap with 2 apps this week.' }
       ]
@@ -1141,7 +1142,7 @@ export const content = {
       geminiPrompt: (term: string) => `Explain the technical term "${term}" to a complete beginner using a simple real-world analogy. Keep it under 50 words. Be encouraging.`,
     },
     nav: {
-      brand: "LearningAI",
+      brand: "My Practical AI",
       start: "Start Here",
       templates: "Templates",
       basics: "AI Basics",
@@ -1263,9 +1264,9 @@ export const content = {
       items: ebooksEn
     },
     about: {
-      title: "About LearningAI",
+      title: "About My Practical AI",
       p1: "We believe technology shouldn't leave anyone behind.",
-      p2: "LearningAI was built for the freelancers, the parents, the small business owners, and the creative minds who hear about \"AI\" and feel overwhelmed rather than excited.",
+      p2: "My Practical AI was built for the freelancers, the parents, the small business owners, and the creative minds who hear about \"AI\" and feel overwhelmed rather than excited.",
       p3: "Nuestra misión es simple: Democratizar la automatización. We translate complex tech concepts into plain English and provide tools you can use immediately, without needing a computer science degree.",
       contact: "Have a suggestion? Want a specific template? Contact us here."
     },
@@ -1273,7 +1274,7 @@ export const content = {
       desc: "Making AI and automation accessible for everyone. Simple terms, practical templates, real results.",
       explore: "Explore",
       connect: "Connect",
-      copyright: "© 2025 LearningAI. All rights reserved.",
+      copyright: "© 2025 My Practical AI. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service"
     },
@@ -1326,7 +1327,7 @@ export const content = {
       geminiPrompt: (term: string) => `Explica el término técnico "${term}" a un principiante absoluto usando una analogía simple del mundo real. Manténlo en menos de 50 palabras. Sé alentador.`,
     },
     nav: {
-      brand: "LearningAI",
+      brand: "My Practical AI",
       start: "Comienza aquí",
       templates: "Plantillas",
       basics: "Fundamentos IA",
@@ -1448,9 +1449,9 @@ export const content = {
       items: ebooksEs
     },
     about: {
-      title: "Sobre LearningAI",
+      title: "Sobre My Practical AI",
       p1: "Creemos que la tecnología no debería dejar a nadie atrás.",
-      p2: "LearningAI was built for freelancers, parents, small business owners, and creative minds who hear about \"AI\" and feel overwhelmed rather than excited.",
+      p2: "My Practical AI was built for freelancers, parents, small business owners, and creative minds who hear about \"AI\" and feel overwhelmed rather than excited.",
       p3: "Nuestra misión es simple: Democratizar la automatización. Traducimos conceptos técnicos complejos a lenguaje sencillo y proporcionamos herramientas que puedes usar inmediatamente, sin necesidad de un título en informática.",
       contact: "¿Tienes una sugerencia? ¿Quieres una plantilla específica? Contáctanos aquí."
     },
@@ -1458,7 +1459,7 @@ export const content = {
       desc: "Haciendo la IA y la automatización accesible para todos. Términos simples, plantillas prácticas, resultados reales.",
       explore: "Explorar",
       connect: "Conectar",
-      copyright: "© 2025 LearningAI. Todos los derechos reservados.",
+      copyright: "© 2025 My Practical AI. Todos los derechos reservados.",
       privacy: "Política de Privacidad",
       terms: "Términos de Servicio"
     },
