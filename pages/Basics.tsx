@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Clock, BarChart, BookOpen, PlayCircle, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Clock, BarChart, BookOpen, CheckCircle2 } from 'lucide-react';
 import Button from '../components/Button';
 import { useLanguage } from '../context/LanguageContext';
 import { useNavigate } from 'react-router-dom';

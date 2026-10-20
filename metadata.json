@@ -1,5 +1,6 @@
 {
   "name": "My Practical AI",
   "description": "A friendly, non-technical hub for learning automation and Generative AI concepts with ready-to-use templates.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

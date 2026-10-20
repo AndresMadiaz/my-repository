@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useNavigate, useParams, Navigate } from 'react-router-dom';
-import { ArrowLeft, PlayCircle, Clock, BarChart, CheckCircle2, Lock } from 'lucide-react';
+import { ArrowLeft, PlayCircle, Clock, BarChart, CheckCircle2 } from 'lucide-react';
 import Button from '../components/Button';
 import { useLanguage } from '../context/LanguageContext';
 

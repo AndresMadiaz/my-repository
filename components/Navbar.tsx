@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Menu, X, Sparkles, BookOpen, Layers, PlayCircle, GraduationCap } from 'lucide-react';
+import { Menu, X, Sparkles, Layers, PlayCircle, GraduationCap } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import Button from './Button';
 import { useLanguage } from '../context/LanguageContext';
